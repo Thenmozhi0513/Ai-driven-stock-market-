@@ -1,0 +1,60 @@
+RAM	8 GB	16 GB or more
+CPU	Dual-core processor	Quad-core or better
+GPU	Not required for basic models	Required (e.g., NVIDIA CUDA-enabled)
+Storage	10+ GB (for datasets & models)	SSD with 50+ GB free space
+
+2. Software Requirements
+Programming Language
+Python 3.7 or higher
+
+Libraries and Frameworks
+Data Collection & Processing:
+
+pandas, numpy, yfinance, pandas_datareader
+
+Visualization:
+
+matplotlib, seaborn, plotly
+
+Statistical Modeling:
+
+statsmodels, pmdarima
+
+Machine Learning & Deep Learning:
+
+scikit-learn, xgboost
+
+tensorflow or keras (for LSTM/GRU)
+
+Deployment:
+
+Flask or Streamlit for web interface
+
+gunicorn, Docker (optional, for production deployment)
+
+3. Dataset Requirements
+Historical Stock Market Data (daily or intraday)
+
+Fields: Date, Open, High, Low, Close, Volume
+
+Source: Yahoo Finance, Alpha Vantage, Quandl
+
+Format: CSV or directly from API
+
+4. Tools & Platforms
+Development Environment: Jupyter Notebook, VS Code, PyCharm
+
+Version Control: Git & GitHub
+
+Cloud/Deployment Platforms:
+
+For hosting: Heroku, Render, AWS, or Streamlit Sharing
+
+For storage (optional): Google Drive, AWS S3
+
+Optional: Google Colab (for free GPU)
+
+5. User Requirements
+Basic understanding of financial markets
+
+Familiarity with Python and machine learning concepts
